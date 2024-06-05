@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño web tipo blog - para practica</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/inicio_sesion.css">
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Chef<b>Clown</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="inicia_sesion.html"> <i class="fab fa-youtube"> </i>Inicia Sesion</a></li>
+                        <li><a href="registro.html"> <i class="fas fa-headset"></i> Registrate</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+
+
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+
+        <div class="blog-container-cover">
+            <div class="container-info-cover">
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <h1>¡Encuentra tu tema interes!</h1>
+                <p>No hay mejor plato que hecho por ti mismo</p>
+                <div class="container">
+                    <h2>Iniciar Sesión</h2>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="username">Usuario:</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit">Iniciar Sesión</button>
+                    </form>
+                    <p id="error-msg" class="error-msg"></p>
+                </div>
+
+                <script src="js/sesion.js"></script>
+            </div>
+        </div>
+
+
+        <div class="container-footer">
+
+            <footer>
+                <div class="logo-footer">
+                    <img src="img/logo-magtimus-pro-.png" alt="">
+                </div>
+
+                <div class="redes-footer">
+                    <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                    <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+                </div>
+
+                <hr>
+                <h4>2024 ChefClown - Todos los Derechos Reservados</h4>
+
+            </footer>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
